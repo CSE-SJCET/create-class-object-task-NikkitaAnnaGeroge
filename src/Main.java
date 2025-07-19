@@ -3,6 +3,22 @@
     // TODO: Create a method to display student details
 public class Main {
       public static void main(String[] args) {
-        // TODO: Create a Student object and call the method to display details
+        Student student=new student();
+           student.name="Nikkita";
+           student.rollNumber=57;
+           student.grade='A';
+           student.displayDetails();
+      }
+}
+class student{
+String name;
+int rollNumber;
+char grade;
+     void display details{
+          System.out.println("name:" +name);
+          System.out.println("rollNumber:" +rollNumber);
+          System.out.println("grade:" +grade);
+     
+             
     }
 }
