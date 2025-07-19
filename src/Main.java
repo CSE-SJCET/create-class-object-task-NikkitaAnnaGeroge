@@ -3,14 +3,14 @@
     // TODO: Create a method to display student details
 public class Main {
       public static void main(String[] args) {
-        Student student=new student();
+        Student student=new Student();
            student.name="Nikkita";
            student.rollNumber=57;
            student.grade='A';
            student.displayDetails();
       }
 }
-class student{
+class Student{
 String name;
 int rollNumber;
 char grade;
