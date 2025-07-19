@@ -14,7 +14,7 @@ class student{
 String name;
 int rollNumber;
 char grade;
-     void display details{
+     void displayDetails{
           System.out.println("name:" +name);
           System.out.println("rollNumber:" +rollNumber);
           System.out.println("grade:" +grade);
