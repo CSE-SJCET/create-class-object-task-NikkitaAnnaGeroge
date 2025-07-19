@@ -10,11 +10,11 @@ public class Main {
            student.displayDetails();
       }
 }
-class Student{
+public class Student{
 String name;
 int rollNumber;
 char grade;
-     void displayDetails(){
+public void displayDetails(){
           System.out.println("name:" +name);
           System.out.println("rollNumber:" +rollNumber);
           System.out.println("grade:" +grade);
